@@ -147,7 +147,7 @@ export default function Home() {
   <div className="w-1/2 pr-1">
     <div className="bg-gray-300 p-8 rounded-lg shadow-lg flex flex-col items-center justify-center mb-4">
       <div className="mb-4">
-        <Image src={covenant} width={230} height={200} />
+        <Image src={covenant} alt="" width={230} height={200} />
       </div>
       <h2 className="text-xl font-semibold mb-2 text-center">Deepen Covenant(Mint)</h2>
       <input
@@ -171,7 +171,7 @@ export default function Home() {
   <div className="w-1/2 pl-1">
     <div className="bg-gray-300 p-8 rounded-lg shadow-lg flex flex-col items-center justify-center mb-4">
       <div className="mb-4">
-        <Image src={humanity} width={180} height={200} />
+        <Image src={humanity} alt="" width={180} height={200} />
       </div>
       <h2 className="text-xl font-semibold mb-2 text-center">Return humanity (Stake)</h2>
       <input
