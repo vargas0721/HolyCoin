@@ -3,10 +3,9 @@ import { useEffect, useState } from "react";
 import { BrowserProvider } from "ethers";
 import { getContract } from "../config";
 import Image from "next/image";
-import backgroundImage from "next/image";
-import humanity from '/workspaces/HolyCoin/humanity.png';
-import covenant from '/workspaces/HolyCoin/covenant.png';
-import firelink from '/workspaces/HolyCoin/firelink.jpg';
+import humanity from '../humanity.png';
+import covenant from '../covenant.png';
+
 
 
 export default function Home() {
